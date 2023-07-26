@@ -1,0 +1,77 @@
+.catalogos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.ConsCat{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    border-radius: 15px;
+
+}
+.Cata{
+    margin-top: 10px;
+}
+.Cata p {
+    margin-bottom: 5px;
+}
+.Cata p:first-child {
+    font-weight: bold;
+}
+
+.ed{
+    width: auto;
+    max-width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.ed .catalogos{
+    box-shadow: 0 2px yellow;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    float: left;
+}
+.ed .catalogos:hover{
+   transform: translate(-15px);
+   box-shadow: 0 12px 16px greenyellow;
+}
+/* Estilos generales del botón */
+.Boton {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 40px;
+  }
+  
+  /* Estilos al pasar el ratón por encima */
+  .Boton:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilos adicionales para cuando el botón esté activo (presionado) */
+  .Boton:active {
+    background-color: #1f618d;
+  }
+  
+  /* Estilos para cuando el botón esté deshabilitado */
+  .Boton[disabled] {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  

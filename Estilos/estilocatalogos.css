@@ -1,0 +1,46 @@
+.catalogos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.ConsCat{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    border-radius: 15px;
+
+}
+.Cata{
+    margin-top: 10px;
+}
+.Cata p {
+    margin-bottom: 5px;
+}
+.Cata p:first-child {
+    font-weight: bold;
+}
+
+.ed{
+    width: auto;
+    max-width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.ed .catalogos{
+    box-shadow: 0 2px yellow;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    float: left;
+}
+.ed .catalogos:hover{
+   transform: translate(-15px);
+   box-shadow: 0 12px 16px red;
+}
